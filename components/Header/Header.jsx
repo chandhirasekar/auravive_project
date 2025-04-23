@@ -34,7 +34,7 @@ const Header = () => {
             alt="auravive_logo"
           />
         </div>
-        <div className="flex gap-[20px]">
+        <div className="lg:flex gap-[20px] md:hidden">
           <Link href={"/"} className="text-[#fff] text-[16px] font-semibold">
             Home
           </Link>
@@ -51,7 +51,7 @@ const Header = () => {
             Contact us
           </Link>
         </div>
-        <div className="flex gap-[2px] items-center bg-white p-[2px_8px] rounded-[5px] ">
+        <div className="lg:flex gap-[2px] items-center bg-white p-[2px_8px] rounded-[5px] md:hidden ">
           <Image
             src={"/icons/whatsapp.svg"}
             width={30}

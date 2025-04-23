@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-[#01321f] pt-[120px] pb-[60px] w-[100%]  ">
-        <div className=" main-width grid grid-cols-2">
+        <div className=" main-width grid lg:grid-cols-2 md:grid-cols-1">
           <div className="flex flex-col items-start justify-center">
             <h1 className="text-[32px] font-bold text-[#fff]">Auravive</h1>
             <h5 className="text-[20px] font-semibold text-[#fff] py-[5px]">

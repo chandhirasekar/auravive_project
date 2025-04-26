@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`  fixed top-0 left-0 right-0 ${
+        className={` z-[999] fixed top-0 left-0 right-0 ${
           isScroll
             ? "bg-green-800  shadow-xl"
             : "lg:bg-transparent md:bg-[#01321f]"

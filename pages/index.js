@@ -141,7 +141,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center md:gap-[10px] lg:gap-[20px]">
             <h1 className="md:text-[18px] lg:text-[24px] md:font-bold lg:font-semibold">
               🌱MORINGA POWDER FOR YOUR HEALTHY LIFESTYLE🌱
             </h1>
